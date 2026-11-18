@@ -30,6 +30,17 @@ from any device or Google account — no Spotify needed.
    choose `main` and `/ (root)`, then Save. The site goes live within a
    few minutes at: `https://<your-username>.github.io/crossroads-season-1/`
 
+## Continuous mode (Keep playing with screen off)
+
+The player has a "Keep playing with screen off" button. It plays the
+~2-hour chunk recordings from the
+[`crossroads-continuous`](https://github.com/CrossroadsAdventist/crossroads-continuous)
+repo instead of the individual episode files, so playback keeps going
+when a phone screen turns off (a frozen page can't run the per-episode
+auto-advance). The lock screen still shows the episode that's playing.
+Season 1's chunks live in that repo; this page polls its `chunks.json`
+every 5 minutes and picks up rebuilt chunks without a refresh.
+
 ## Updating it later
 
 Season 2 gets its own repository (`crossroads-season-2`) the same way —
